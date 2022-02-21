@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Log in form</title>
+<style>
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:rgb(46, 46, 46);
+    text-align: center;
+}
+.box h1{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.box input[type = "text"], .box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1c72ac;
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(127, 229, 255);
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: rgb(127, 229, 255);
+
+
+}
+
+</style>
+        <body>
+            <a href="add.html">Add Page</a>
+            <a href="record.html">Record Page</a>
+            <form class="box" action="index.html" method="get">
+                <h1>Log in</h1>
+                <input type="text" name="" placeholder="Username">
+                <input type="password" name="" placeholder="Password">
+                <input type="submit" name="" value="Log in">
+            </form>
+        </body>
+    </head>
+</html>
